@@ -1,0 +1,35 @@
+{
+  "astronaut_id": "ASTRONAUT_01",
+  "days": 14,
+  "seed": 77,
+  "baseline": {
+    "heart_rate": 73,
+    "spo2": 98.2,
+    "sleep_hours": 7.3,
+    "systolic_bp": 122,
+    "diastolic_bp": 81,
+    "activity": 7600
+  },
+  "noise": {
+    "heart_rate": 2.7,
+    "spo2": 0.45,
+    "sleep_hours": 0.35,
+    "systolic_bp": 4.2,
+    "diastolic_bp": 3.2,
+    "activity": 520
+  },
+  "changes": {
+    "spo2": {
+      "start_day": 5,
+      "change_per_day": -0.55
+    },
+    "heart_rate": {
+      "start_day": 7,
+      "change_per_day": 0.9
+    }
+  },
+  "connectivity_gaps": [
+    {"start_day": 9, "end_day": 10}
+  ],
+  "dropout_rate": 0.04
+}

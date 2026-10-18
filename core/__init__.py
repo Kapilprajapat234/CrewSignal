@@ -1,9 +1,9 @@
 from dataclasses import dataclass
 from datetime import datetime
 
-# ==========================================
-# 1. Health Metrics
-# ==========================================
+
+# Health Metrics
+
 
 METRICS = [
     "heart_rate",
@@ -15,9 +15,9 @@ METRICS = [
 ]
 
 
-# ==========================================
-# 2. Health Status Constants
-# ==========================================
+
+# Health Status Constants
+
 
 NORMAL = "NORMAL"
 WATCH = "WATCH"
@@ -25,9 +25,9 @@ SUSPECTED_CONCERN = "SUSPECTED_CONCERN"
 INSUFFICIENT_EVIDENCE = "INSUFFICIENT_EVIDENCE"
 
 
-# ==========================================
-# 3. Reading Dataclass
-# ==========================================
+
+# Reading Dataclass
+
 
 @dataclass
 class Reading:
@@ -39,9 +39,8 @@ class Reading:
     source: str
 
 
-# ==========================================
-# 4. Flag Dataclass
-# ==========================================
+# Flag Dataclass
+
 
 @dataclass
 class Flag:
