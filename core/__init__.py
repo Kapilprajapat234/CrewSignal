@@ -4,7 +4,6 @@ from datetime import datetime
 
 # Health Metrics
 
-
 METRICS = [
     "heart_rate",
     "spo2",
@@ -15,9 +14,7 @@ METRICS = [
 ]
 
 
-
 # Health Status Constants
-
 
 NORMAL = "NORMAL"
 WATCH = "WATCH"
@@ -25,9 +22,7 @@ SUSPECTED_CONCERN = "SUSPECTED_CONCERN"
 INSUFFICIENT_EVIDENCE = "INSUFFICIENT_EVIDENCE"
 
 
-
 # Reading Dataclass
-
 
 @dataclass
 class Reading:
@@ -40,7 +35,6 @@ class Reading:
 
 
 # Flag Dataclass
-
 
 @dataclass
 class Flag:
